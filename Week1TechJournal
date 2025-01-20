@@ -1,0 +1,9 @@
+This week, we started by learning about passive reconnesience. We used tools such as theHarvester and Metagoofil to gatrher information from companies websites, such as public documents and websites they user. We also used netcraft to generate site reports for the websites that we found during our recon.
+
+Be careful not to send too many requests at once, google will block you IP for a day.
+
+Commands:
+* -d <yourorganization> -b all - theHarvester
+
+*sudo metagoofil -d champlain.edu -t pdf -l 10 -f
+metagoo_out/mydomainfiles.txt - metagoofil
