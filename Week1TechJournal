@@ -1,4 +1,4 @@
-This week, we started by learning about passive reconnesience. We used tools such as theHarvester and Metagoofil to gatrher information from companies websites, such as public documents and websites they user. We also used netcraft to generate site reports for the websites that we found during our recon.
+This week, we started by learning about passive reconnaissance. We used tools such as theHarvester and Metagoofil to gather information from companies' websites, such as public documents and websites they use. We also used netcraft to generate site reports for the websites that we found during our recon.
 
 Be careful not to send too many requests at once, google will block you IP for a day.
 
