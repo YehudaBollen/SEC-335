@@ -6,4 +6,4 @@ Commands:
 * -d <yourorganization> -b all - theHarvester
 
 *sudo metagoofil -d champlain.edu -t pdf -l 10 -f
-metagoo_out/mydomainfiles.txt - metagoofil
+metagoo_out/mydomainfiles.txt - metagoofil 
