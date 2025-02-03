@@ -1,0 +1,10 @@
+param (
+    [string]$networkPrefix,
+    [string]$server
+)
+for ($i=1;$i -le 254;$i++)
+    {
+        $ipaddress = "$networkPrefix.$i"
+        $result = Resolve-DnsName -Name $ipaddress -Server $server -DnsOnly -ErrorAction Ignore
+        $result | Select-Object Name, NameHost
+    } 
